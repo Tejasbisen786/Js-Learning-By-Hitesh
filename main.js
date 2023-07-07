@@ -47,4 +47,9 @@
 // console.log(typeof strnum)
 
 
-// *****************String to Number Conversion ********************
+// ***************** Lecture 4 : String to Number Conversion ********************
+
+let value = 3
+let negvalue= -value
+console.log(negvalue)
+console.log(5+5)
