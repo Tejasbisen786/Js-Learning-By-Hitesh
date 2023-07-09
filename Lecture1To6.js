@@ -126,6 +126,9 @@
 
 
 // *********************Lecture 6: Data-Type Of Javascript ******************
+
+// Primitive  Data Type 
+
 // const score =100
 // const scoreValue=100.3
 // const isloggedin = false
@@ -135,6 +138,49 @@
 // console.log(typeof score);
 // console.log(typeof scoreValue);
 
+// const id =Symbol('123')   //symobol 
+// const anotherID= Symbol('123')
 
+// console.log(id===anotherID);
+// console.log(typeof anotherID);
+
+// const bigNumber=34e10;
+// console.log(typeof bigNumber);
+
+//   ********** NON-PRIMITIVE DATA TYPE *****************
+
+
+// Array 
+// const names =["Tejas","Tushar", "Bisen","Gondia"]
+
+// console.log(names[0]);
+
+// OBJECTS 
+
+// const heros={
+//     "name":"Superman",
+//     "age":18,
+//     "Gender": "MALE"
+// }
+
+// console.log(heros.Gender);
+
+//  FUNCTION IN JAVASCRIPT
+ 
+
+// function defination  and structure 
+// function () {
+
+// }
+// const myFun=  function ()
+// {
+//     console.log("Hello I'm Function ");
+// }
+
+
+// console.log(typeof myFun); 
+// *** DATA-TYPE 
+// Null -> object 
+ // function-> Object Function 
 
 
