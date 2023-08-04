@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .clockCanvas {
+        width: 100vw;
+        height: 70vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: #4ecdc4; /* fallback for old browsers */
+        background: -webkit-linear-gradient(
+          to right,
+          #556270,
+          #4ecdc4
+        ); /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(
+          to right,
+          #556270,
+          #4ecdc4
+        ); 
+        font-size: 2rem;
+font-family: 'Segoe UI', Tahoma, 
+Geneva, Verdana, sans-serif;      }
+
+#clock{
+    background-color: yellow;
+    padding: 20px;
+    border-radius: 40px;
+    font-size: 4rem;
+    
+}
+    </style>
+  </head>
+  <body>
+    <div class="clockCanvas">
+      <h2>Digital Clock</h2>
+      <h4 id="clock"></h4>
+    </div>
+  </body>
+  <script src="./main.js"></script>
+</html>
