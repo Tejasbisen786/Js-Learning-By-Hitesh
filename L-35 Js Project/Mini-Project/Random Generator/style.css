@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #4ca1af; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #c4e0e5,
+    #4ca1af
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #c4e0e5,
+    #4ca1af
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 50vh;
+  gap: 10px;
+}
+#textinput{
+    background-color: white;
+    width: 30vh;
+  padding: 10px 15px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 3rem;
+  color: #0cc3df;
+  border-radius: 20px;
+
+}
+h4{
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+    margin-top: 2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+button {
+  --primary-color: #645bff;
+  --secondary-color: #fff;
+  --hover-color: #111;
+  width: 30vh;
+
+  box-sizing: border-box;
+  border: 0;
+  border-radius: 20px;
+  color: var(--secondary-color);
+  padding: 1em 1.8em;
+  background: var(--primary-color);
+  /* display: flex; */
+  transition: 0.2s background;
+  /* align-items: center; */
+  gap: 0.6em;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: var(--hover-color);
+}
+
+
+#range{
+  padding: 12px 10px;
+  width: 30vh;
+  border: none;
+border-radius: 6px;
+font-weight: 600;
+font-size: .8rem;
+}
+#range:focus{
+  border-style: none;
+  border: none;
+}
+
