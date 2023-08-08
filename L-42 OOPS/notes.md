@@ -26,3 +26,6 @@
  Encapsulation : wrapping a data in a single unit
  Inheritance : 
  Polymorphism: many methods has different function
+
+
+ 
